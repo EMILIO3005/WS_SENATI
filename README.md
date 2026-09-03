@@ -26,3 +26,5 @@ npm install
 ```shell
 npm run dev
 ```
+### Creditos
+_Desarrollado por **Emilio Jose Cueva Rojas**_
