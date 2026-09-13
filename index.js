@@ -85,7 +85,7 @@ app.get('/alumnos', (require, result) => {
     `;
   db.query(sql, (err, res) =>{
     if (err) return result.status(500).send(err);
-    res.json(res);
+    result.json(res);
   })
 });
 
